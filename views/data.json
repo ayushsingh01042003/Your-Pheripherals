@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "name": "AMD Ryzen 5 5600X",
+            "price": 299,
+            "picture": "./assets/AMD Ryzen 5 5600X.jpeg",
+            "category": "CPU"
+        },
+        {
+            "name": "Intel Core i7-11700K",
+            "price": 399,
+            "picture": "./assets/Intel Core i7-11700K.jpeg",
+            "category": "CPU"
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3060 Ti",
+            "price": 399,
+            "picture": "./assets/NVIDIA GeForce RTX 3060 Ti.jpeg",
+            "category": "GPU"
+        },
+        {
+            "name": "MSI GeForce RTX 3070",
+            "price": 799,
+            "picture": "./assets/MSI GeForce RTX 3070.jpeg",
+            "category": "GPU"
+        },
+        {
+            "name": "Crucial Ballistix 16GB DDR4",
+            "price": 89,
+            "picture": "./assets/Crucial Ballistix 16GB DDR4.jpeg",
+            "category": "RAM"
+        },
+        {
+            "name": "HyperX Fury RGB 32GB DDR4",
+            "price": 199,
+            "picture": "./assets/HyperX Fury RGB 32GB DDR4.jpeg",
+            "category": "RAM"
+        },
+        {
+            "name": "AMD Ryzen 7 5800X",
+            "price": 449,
+            "picture": "./assets/AMD Ryzen 7 5800X.jpeg",
+            "category": "CPU"
+        },
+        {
+            "name": "Intel Core i9-11900K",
+            "price": 539,
+            "picture": "./assets/Intel Core i9-11900K.jpeg",
+            "category": "CPU"
+        },
+        {
+            "name": "ASUS ROG Strix GeForce RTX 3080",
+            "price": 1499,
+            "picture": "./assets/ASUS ROG Strix GeForce RTX 3080.jpeg",
+            "category": "GPU"
+        }
+    ]
+}
+    

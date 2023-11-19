@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section id="one" name="header" class="bg-gradient-to-r from-yellow-300 to-yellow-500 py-6">
+        <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="/">
+                    <img src="./assets/logo.svg" alt="Your Logo" class="h-10 w-10 shadow-xl">
+                </a>
+                <h1 class="text-3xl text-white">Products Page</h1>
+            </div>
+            <div class="flex items-center space-x-4 mt-4 lg:mt-0">
+                <input type="text" id="search-bar" class="border rounded-lg py-3 px-4 w-full lg:w-auto" placeholder="Search Products">
+                <select id="category-dropdown" class="border rounded-lg py-3 px-4">
+                    <option value="all">All</option>
+                    <option value="CPU">CPU</option>
+                    <option value="GPU">GPU</option>
+                    <option value="RAM">RAM</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section id="two" name="cards" class="py-8">
+        <div id="product-cards" class="flex flex-wrap -mx-4">
+        </div>
+    </section>
+
+    <script src="./products.js"></script>
+</body>
+</html>
